@@ -1,0 +1,23 @@
+{
+  "name": "apollo-serve",
+  "version": "1.0.0",
+  "description": "Express server to serve Apollo app browser client",
+  "main": "app.js",
+  "scripts": {
+    "pretest": "eslint ./src/ --fix",
+    "test": "echo \"Tests Complete\"",
+    "nodemon": "nodemon --watch ./ ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "author": "Jesse Cooper and Aaron Romel",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
